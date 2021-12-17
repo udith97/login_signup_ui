@@ -71,9 +71,7 @@ class _LoginSignupScreenState extends State<LoginSignupScreen> {
               ),
             ),
           ),
-          // Trick to add the shadow for the submit button
           buildBottomHalfContainer(true),
-          //Main Contianer for Login and Signup
           AnimatedPositioned(
             duration: Duration(milliseconds: 700),
             curve: Curves.bounceInOut,
